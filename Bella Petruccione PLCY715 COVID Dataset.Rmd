@@ -1,0 +1,19 @@
+---
+title: "PLCY 715 COVID Dataset Bella Petruccione Team Lavender Blush"
+author: "Isabella Petruccione"
+date: "2/5/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+library(gapminder) 
+
+covid_survey_responses <- read_csv("~/Desktop/PLCY715FinalProject/data/COVID-19 Survey Student Responses.csv")
+covid_survey_responses
+```
+
